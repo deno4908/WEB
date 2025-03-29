@@ -282,18 +282,19 @@ body{
     transition: opacity 0.5s ease-in-out;
 }
 #section5{
-    height: 60vh;
+    height: 70vh;
 }
 #section5 h2{
     text-align: center;
     font-size: 32px;
+    margin-top: 70px;
 }
 .section5-container,.section6-container{
     
     height: 100%;
 }
 .section5-gird{
-    height: 90%;
+    height: 80%;
     max-width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 6 cột cố định */
