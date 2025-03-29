@@ -225,7 +225,7 @@ body{
     background-color: #333;
 }
 #section4{
-    height: 100vh;
+    height: 110vh;
     
 }
 .section4-container{
@@ -281,6 +281,44 @@ body{
     border-radius: 10px;
     transition: opacity 0.5s ease-in-out;
 }
+#section5{
+    height: 60vh;
+}
+#section5 h2{
+    text-align: center;
+    font-size: 32px;
+}
+.section5-container,.section6-container{
+    
+    height: 100%;
+}
+.section5-gird{
+    height: 90%;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 6 cột cố định */
+    gap: 40px;
+    width: fit-content;
+    margin-top: 70px;
+   
+}
+.section5-gird .section5-card{
+    height: 100%;
+}
+.section5-gird .section5-card img{
+    max-width: 100%;
+}
+.section5-card h3{
+    margin-top: 10px;
+    margin-bottom: 10px !important;
+}
+.section5-card p{
+    margin-top: 5px;
+}
+.section5-gird .section5-card h3,p{
+    margin-left: 7px;
+}
+
 @media (min-width: 576px) {
     .container {
         max-width: 540px;
