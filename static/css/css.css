@@ -319,7 +319,64 @@ body{
 .section5-gird .section5-card h3,p{
     margin-left: 7px;
 }
-
+#section6{
+    height: 50vh;
+    background-color: rgb(97, 223, 223);
+}
+.section6-container h3{
+    font-size: 32px;
+}
+.section6-gird{
+    height: 80%;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 6 cột cố định */
+    gap: 40px;
+    width: fit-content;
+}
+.section6-gird .section6-card{
+    border-radius: 8px;
+    overflow: hidden;
+    height: 90%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../img/mau-background-dep-41.jpg");
+    background-position: center;
+    background-size: auto;
+    cursor: pointer;
+    
+}
+.box-content .box-title{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-weight: 700;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    top : 0;
+    transition: top 0.3s ease-in-out;
+}
+.box-content .box-p{
+    position: relative;
+    top: -30px;
+    justify-self: center;
+    font-size: 20px;
+    opacity: 0;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    margin-left: 35px;
+    margin-right: 35px;
+    text-align: center;
+    margin-top: 0;
+}
+.section6-card:hover .box-title{
+    top: -70px;
+}
+.section6-card:hover .box-p{
+    top: -40px;
+    opacity: 1;
+}
 @media (min-width: 576px) {
     .container {
         max-width: 540px;
