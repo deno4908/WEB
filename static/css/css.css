@@ -1,5 +1,7 @@
 body{
     font-family: Roboto, "Odoo Unicode Support Noto", sans-serif;
+    margin: 0;
+    
 }
 #section1{
     height: 80vh;
@@ -41,10 +43,10 @@ body{
     margin-bottom: 50px;
 }
 .text button{
-    padding: 12px 24px 12px 24px;
+    padding: 14px 24px 14px 24px;
     border-radius: 8px;
     font-size: 20px;
-    
+    cursor: pointer;
 }
 .text #advise{
     border: 1px solid rgb(41, 73, 148);
@@ -65,7 +67,7 @@ body{
 }
 #section2{
     height: 60vh;
-    background-color: rgb(141, 141, 255);
+    background-color: rgb(185, 182, 182);
 }
 .content-text{
     margin-top: 40px;
@@ -289,7 +291,7 @@ body{
     font-size: 32px;
     margin-top: 70px;
 }
-.section5-container,.section6-container{
+.section5-container,.section6-container,.section7-container,.section9-container{
     
     height: 100%;
 }
@@ -341,8 +343,7 @@ body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../img/mau-background-dep-41.jpg");
     background-position: center;
     background-size: auto;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
 .box-content .box-title{
     font-size: 32px;
@@ -376,6 +377,132 @@ body{
 .section6-card:hover .box-p{
     top: -40px;
     opacity: 1;
+}
+#section7{
+    height: 120vh;
+}
+.section7-content{
+    text-align: center;
+}
+.section7-content h3{
+    font-size: 32px;
+    margin-bottom: 10px;
+    
+}
+.section7-content p{
+    font-size: 20px;
+    color: #888;;
+    font-stretch: condensed;
+    margin-top: 10px;
+}
+.section7-grid{
+    height: 102%;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 6 cột cố định */
+    gap: 40px;
+    width: fit-content;
+    /* margin-top: 70px; */
+
+}
+.section7-grid .section7-card{
+    height: 85%;
+    border: 1px groove rgba(176, 184, 190, 0.626);
+    border-radius: 7px;
+}
+.section7-card .text-content{
+    margin: 16px 16px 16px 16px;
+}
+.text-content h5{
+    font-size: 20px;
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+}
+.text-content strong{
+    font-size: 40px;
+}
+.text-content small{
+    color : rgba(33, 37, 41, 0.7);
+}
+.text-content p{
+    margin-left: 0 !important;
+    margin-right: 35px;
+    font-size: 14px;
+}
+.text-content button{
+    border-radius: 7px;
+    border: 1px solid rgb(50, 89, 180);
+    color: rgb(50, 89, 180);
+    font-size: 16px;
+    width: 100%;
+    padding: 8px 12px 8px 12px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-bottom: 16px;
+    transition: all 0.3s ease-in-out;
+}
+.text-content button:hover{
+    color: white;
+    background-color:rgb(50, 89, 180) ;
+}
+.sev-list ul{
+    padding: 0;
+    margin: 0 10px 0 10px;
+    list-style: none;
+}
+.sev-list i{
+    margin-right: 10px;
+    color:  rgb(60, 140, 255);
+}
+.sev-list li{
+    font-size: 16px;
+    margin-left: 10px;
+}
+.sev-list hr{
+    border: 1px groove ;
+}
+#section8{
+    height: 60vh;
+    background-color: red;
+}
+#section9{
+    height: 50vh;
+}
+
+.section9-content{
+    padding: 40px 40px 40px 40px;
+    height: 55%;
+    border-radius: 7px;
+    background-color: rgb(41, 73, 148);
+    /* margin: 0 auto 0 auto; */
+}
+.section9-content h2{
+    font-size: 40px;
+    justify-self: center;
+    margin-top: 0px !important;
+    color: white;
+    margin-bottom: 0px !important;
+}
+.section9-content p{
+    font-size: 20px;
+    justify-self: center;
+    color: white;
+}
+.content-btn{
+    display: flex;
+    align-items: center;
+}
+.content-btn a{
+    margin:  20px auto 0 auto;
+}
+.content-btn button{
+    font-size: 20px;
+    padding: 18px 24px 18px 24px;
+    color: rgb(33, 37, 41);
+    border-radius: 7px;
+    border: 0;
+    background: white;
+    cursor: pointer;
 }
 @media (min-width: 576px) {
     .container {

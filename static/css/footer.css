@@ -1,0 +1,51 @@
+footer{
+    height: 43vh;
+    background-color: rgb(17, 24, 39);
+    margin: 0px;
+}
+.footer{
+    height: 100%;
+    
+}
+.footer-grid{
+    height: 100%;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 6 cột cố định */
+    gap: 40px;
+    /* width: fit-content; */
+}
+.footer-grid .footer-card{
+    height: 80%;
+}
+.footer-list{
+    list-style: none;
+    padding-left: 0px !important;
+}
+.footer-list h3{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 4px !important;
+}
+.footer-list li{
+    font-size: 16px;
+    padding: 6px 0px 6px 0px !important;
+}
+.footer-list a{
+    color:  rgb(136, 162, 222);
+    text-decoration: none;
+}
+.footer-list a:hover{
+    text-decoration: underline;
+}
+.footer-list i{
+    color: white;
+    margin-right: 8px;
+}
+.footer-list span{
+    color: white;
+}
+.copyright{
+    color: white;
+
+}
